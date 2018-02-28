@@ -7,6 +7,9 @@ include $(TOP)/configure/CONFIG
 # The following are used for debugging messages.
 #!USR_CXXFLAGS += -DDEBUG
 
+# Use permissive to remove errors relating to NULL char conversions
+USR_CXXFLAGS += -fpermissive
+
 DBDINC += motorRecord.h
 DBD += motorSupport.dbd
 

@@ -1,7 +1,7 @@
 TOP = ..
 include $(TOP)/configure/CONFIG
 
-DIRS += NoAsyn
+#DIRS += NoAsyn
 ifdef ASYN
 DIRS += WithAsyn
 endif
