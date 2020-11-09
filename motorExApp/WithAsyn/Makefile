@@ -16,6 +16,7 @@ PROD_IOC_vxWorks = WithAsynVx
 
 COMMONDBDS  = base.dbd
 COMMONDBDS += motorSupport.dbd
+COMMONDBDS += PVAServerRegister.dbd qsrv.dbd
 #COMMONDBDS += devAcsMotor.dbd
 #COMMONDBDS += devImsMotor.dbd
 #COMMONDBDS += devMclennanMotor.dbd
@@ -81,6 +82,7 @@ COMMONLIBS += motorSimSupport
 #COMMONLIBS += PI_GCS2Support
 #COMMONLIBS += phytronAxisMotor
 COMMONLIBS += motor
+COMMONLIBS += pvDatabase pvAccess pvData pvAccessIOC qsrv
 
 # Needed for Newport SNL programs
 WithAsyn_LIBS += $(COMMONLIBS)
