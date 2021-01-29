@@ -24,7 +24,7 @@ ASYN=$(SUPPORT)/asyn/
 #BUSY=$(SUPPORT)/busy/R1-6
 
 # Recommended EPICS release: R3.14.12.4
-EPICS_BASE=/opt/epics/base
+EPICS_BASE = /opt/epics/base-R7.0.4.1
 -include $(TOP)/../configure/EPICS_BASE.$(EPICS_HOST_ARCH)
 
 # The following must be defined for the MXmotor device driver.

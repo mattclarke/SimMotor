@@ -7,3 +7,9 @@ To build:
 
 * Edit configure/RELEASE so it points at the correct location for EPICS base and asyn
 * Run make
+
+To run:
+```
+cd iocBoot/iocSim
+../../bin/darwin-x86/WithAsyn  st.cmd.unix
+```
