@@ -37,6 +37,8 @@ motorSim_DBD += base.dbd
 motorSim_DBD += asyn.dbd
 motorSim_DBD += motorSupport.dbd
 motorSim_DBD += motorSimSupport.dbd
+# Add PVA support
+motorSim_DBD += PVAServerRegister.dbd qsrv.dbd
 
 # <name>_registerRecordDeviceDriver.cpp will be created from <name>.dbd
 motorSim_SRCS += motorSim_registerRecordDeviceDriver.cpp
@@ -49,6 +51,8 @@ motorSim_OBJS_vxWorks += $(EPICS_BASE_BIN)/vxComLibrary
 motorSim_LIBS += motorSimSupport
 motorSim_LIBS += motor
 motorSim_LIBS += asyn
+# Add PVA support
+motorSim_LIBS += pvDatabase pvAccess pvData pvAccessIOC qsrv
 
 motorSim_LIBS += $(EPICS_BASE_IOC_LIBS)
 
