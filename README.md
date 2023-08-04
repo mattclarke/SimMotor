@@ -17,11 +17,11 @@ change from:
   epicsEnvSet("TOP","<path to top directory>/modules/motorMotorSim/iocs/motorSimIOC")
 
 to:
-  epicsEnvSet("TOP","<path to top directory>")
+  epicsEnvSet("TOP","<path to top directory>/modules/motorMotorSim")
 ```
 
 Start the IOC like so:
 ```
 > cd /modules/motorMotorSim/iocs/motorSimIOC
-> 
+> ../../../../bin/darwin-aarch64/motorSim st.cmd
 ```
