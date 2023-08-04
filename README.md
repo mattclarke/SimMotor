@@ -11,7 +11,7 @@ The build process is a bit weird...
 ```
 Replace the above `EPICS_HOST_ARCH` as required
 
-Need to manual fix `TOP` in `envPaths`:
+Need to manually fix `TOP` in `envPaths`:
 ```
 change from:
   epicsEnvSet("TOP","<path to top directory>/modules/motorMotorSim/iocs/motorSimIOC")
