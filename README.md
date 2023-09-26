@@ -22,6 +22,6 @@ to:
 
 Start the IOC like so:
 ```
-> cd /modules/motorMotorSim/iocs/motorSimIOC
+> cd modules/motorMotorSim/iocs/motorSimIOC/iocBoot/iocMotorSim
 > ../../../../bin/darwin-aarch64/motorSim st.cmd
 ```
